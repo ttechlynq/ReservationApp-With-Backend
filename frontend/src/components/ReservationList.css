@@ -1,0 +1,38 @@
+.reservation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.reservation-item {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.reservation-item button {
+    margin-right: 0.5rem;
+}
+
+.reservation-edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 10px;
+}
+
+.edit-form input,
+.edit-form button {
+    padding: 0.5rem;
+}
+
+.edit-form button {
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    margin-top: 0.5rem;
+}
